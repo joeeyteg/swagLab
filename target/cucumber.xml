@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.65">
+    <testcase classname="SwagLab" name="Checkout 1 item from the cart" time="10.072">
+        <system-out><![CDATA[Given I am on the sauce demo home page - Swag Labs..........................passed
+When I enter an acceptable username "standard_user" and password "secret_sauce", and click the LOG IN button.passed
+When I add an item to cart by clicking on “ADD TO CART” button for the item.passed
+Then my Cart should show that an item has just been added in it.............passed
+When I checkout the item by entering my information as first name"Anakin", last name "Skywalker" and ZIP code as "R2 D2" on the Checkout Your Information page.passed
+Then I click the CONTINUE button, I should be directed to the Checkout Overview page which should display the correct information "Sauce Labs Backpack"..passed
+When I click Finish on the Checkout Overview page...........................passed
+Then I am directed to the “CHECKOUT: COMPLETE!” page........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
